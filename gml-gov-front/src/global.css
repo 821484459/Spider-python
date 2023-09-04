@@ -1,0 +1,35 @@
+/* 当屏幕宽度小于等于768px时，设置字体大小为14px */
+@media (max-width: 300px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+
+/* 当屏幕宽度小于等于768px时，设置字体大小为14px */
+@media(min-width: 301px) and (max-width: 768px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/* 当屏幕宽度大于768px且小于等于1024px时，设置字体大小为16px */
+@media (min-width: 769px) and (max-width: 1479px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* 当屏幕宽度大于等于1024px时，设置字体大小为18px */
+@media (min-width: 1480px) and (max-width: 2159px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* 当屏幕宽度大于等于2160px时，设置字体大小为22px */
+@media (min-width: 2160px) {
+    html {
+        font-size: 22px;
+    }
+}
