@@ -5,6 +5,7 @@ import fs from "fs";
 // import fssync from "fs/promises";
 // import path from "path";
 // import readline from "readline";
+// 测试github
 
 (async () => {
   //   打开浏览器窗口
